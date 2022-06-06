@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>InfoVerse - O seu Blog de Tecnologia</title>
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="img\favicon.ico" type="image/x-icon">
   </head>
 
   <body>
     <!-------HEADER------->
     <div id="area-cabecalho">
-      <div class="container">
+      <div class="container" id="topo">
 
         <nav class="navbar navbar-expand-lg navbar-light">
           <div id="area-logo">
@@ -78,10 +79,9 @@
 
           </p>
 
-          <br>
-            <a class="acesse" href="https://ethereum.org/en/" target="_blank" ref="external">Acompanhe o site oficial.</a>
+          <a class="acesse" href="https://ethereum.org/en/" target="_blank" ref="external">Acompanhe o site oficial.</a>
 
-          <br><br>
+          <br><br><br>
 
           <h2>Cardano (ADA)</h2>    
           <span class="data-postagem">postado 03 abril 2022</span>
@@ -99,40 +99,50 @@
 
               Além disso, a Cardano foi a primeira <a href="vocabulario.html" target="_blank" rel="external">criptomoeda</a> baseada em uma metodologia científica. Isso trás mais força para seu código, que é avaliado e revisado por uma grande equipe de pesquisadores, cientistas, engenheiros e desenvolvedores.
             </p>
-          <br>
+        
           
-
         </div>
 
         <!-------POSTAGEM LATERAL-------->
 
-        <div class="col-lg-3 align-self-justify" id="postagem-lateral" >
-
-          <div class="card">
-           <img src="img/vocabulario.png" class="card-img-top">
-           <div class="card-body">
-             <h5 class="card-title">Entenda!</h5>
-             <p class="card-text">Ainda tem dúvidas sobre os "termos" mais utilizados nesse universo?</p>
-             <a href="vocabulario.html" class="btn btn-secundary">Leia mais</a>
-           </div>
-         </div>
-
-        <!------//POSTAGEM LATERAL------->
-          
-        
-
+        <div class="col-lg-3 align-self-justify">
+          <div class="row 2" id="postagem-lateral">
+            <div class="card">
+              <img src="img/vocabulario.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Entenda!</h5>
+                <p class="card-text">Ainda tem dúvidas sobre os "termos" mais utilizados nesse universo?</p>
+                <a href="vocabulario.html" class="btn btn-secundary">Leia mais</a>
+              </div>
+            </div>
+  
+            <!----BOTÃO-TOPO---->
+  
+            <div class="topo">
+              <a href="#topo">
+                <div id="voltar" data-scroll="suave" data-anima="scroll" class="sumir">
+                  <i class="bi bi-chevron-up"></i>
+                </div>
+              </a>         
+            </div>  
+            <!---//BOTÃO-TOPO---->  
+          </div>
+        </div>
       </div>
-    </div>
-
+      <!------//POSTAGEM LATERAL------->
+    
+    </div> 
     <!---//CONTEUDO--->
-
 
     <script 
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" 
     integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" 
     crossorigin="anonymous"></script>
-
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/btt_topo.js"></script>
 
+    <div id="rodape">
+      @Todos os direitos reservados.
+    </div>
   </body>
 </html>
