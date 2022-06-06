@@ -1,5 +1,3 @@
-
-
 /* Formatações Layout abaixo */
 
 #area-cabecalho .navbar-toggler{
@@ -17,10 +15,6 @@
     padding-bottom: 1em;
     color: #000;
     text-align: center;
-}
-
-.row {
-    padding-top: 1em;
 }
 
 /* Formataçoes do Menu*/
@@ -51,3 +45,38 @@
     border-color: #32c483;
 }
 
+/* Formatação botão-topo */
+
+.show-button{
+    right: 224px;
+    outline: none;
+    background: #22333B;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 55px;
+    right: 224px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    z-index: 999;
+    transition: all 0.5s ease-out;
+    font-size: 40px;
+    color: #cccccc;
+    display: flex;
+    justify-content: center;
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+}
+
+/*SUMIR-MUDAR BOTÃO*/
+@media screen and (max-width: 992px) {
+    .sumir {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .show-button{
+        right: 142px
+    }
+}
