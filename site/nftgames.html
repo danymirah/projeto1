@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>InfoVerse - O seu Blog de Tecnologia</title>
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="img\favicon.ico" type="image/x-icon">
   </head>
 
@@ -14,7 +15,7 @@
 
 
     <div id="area-cabecalho">
-      <div class="container">
+      <div class="container" id="topo">
 
         <nav class="navbar navbar-expand-lg navbar-light">
           <div id="area-logo">
@@ -96,10 +97,10 @@
             <iframe src="https://www.youtube.com/embed/0hDmJfrCeA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
-            <br><br>
-             <a href="https://axieinfinity.com" target="_blank" rel="external">Confira o site oficial.</a>
             <br>
-
+             <a class="acesse" href="https://axieinfinity.com" target="_blank" rel="external">Confira o site oficial.</a>
+            <br>
+            <br>
             <h2>Star Atlas</h2>
             <span class="data-postagem">postado 03 abril 2022</span>
           <br>
@@ -118,54 +119,57 @@
                 Por meio do motor gráfico Unreal Engine 5, o mesmo de sucessos como Fortnite e eFootball 2022 (antigo PES), Star Atlas já mostrou onde pretende chegar quando divulgou um trailer e disponibilizou seu primeiro minigame, onde os jogadores já podem ganhar <a href="vocabulario.html" target="_blank" ref="external">criptomoedas</a>. Agora, a intenção é ir além com a disponibilização contínua de módulos interativos.
             </p>
 
-            <br>
-    
-                <p>A seguir um vídeo abaixo mais específico sobre esse universo que promete MUITO.</p>
+          <br>
+          <p>A seguir um vídeo abaixo mais específico sobre esse universo que promete MUITO.</p>
 
-                    <div class="ratio ratio-16x9">
-                        <iframe src="https://www.youtube.com/embed/hQGATAxgeps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <br><br>
-                    <a href="https://staratlas.com" target="_blank" rel="external">Confira o site oficial.</a>
-                </p>
-
-            <br><br>
-
-        </div>
-
-        <!-------POSTAGEM LATERAL-------->
-
-        <div class="col-lg-3 align-self-justify" id="postagem-lateral" >
-
-           <div class="card">
-            <img src="img/cardano.jpg" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Quer entender mais de Cripto</h5>
-              <p class="card-text">Acesse nossa matéria!</p>
-              <a href="criptomoedas.html" class="btn btn-secundary">Leia mais</a>
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/hQGATAxgeps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-          </div>
-          
+            <br><br>
+            <a class="acesse" href="https://staratlas.com" target="_blank" rel="external">Confira o site oficial.</a>
+          </p>
+        
+
         </div>
 
-        
+       <!-------POSTAGEM LATERAL-------->
 
-        <!------//POSTAGEM LATERAL------->
-          
-        
+        <div class="col-lg-3 align-self-justify">
+          <div class="row 2" id="postagem-lateral">
+            <div class="card">
+              <img src="img/cardano.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Quer entender mais de Cripto</h5>
+                <p class="card-text">Acesse nossa matéria!</p>
+               <a href="criptomoedas.html" class="btn btn-secundary">Leia mais</a>
+              </div>
+            </div>
 
-      </div>
-    </div>
+            <!----BOTÃO-TOPO---->
 
+            <div class="topo">
+              <a href="#topo">
+                <div id="voltar" data-scroll="suave" data-anima="scroll" class="sumir">
+                 <i class="bi bi-chevron-up"></i>
+                </div>
+              </a>         
+            </div>  
+          </div>
+          <!---//BOTÃO-TOPO---->  
+        </div>
+      </div> <!------//POSTAGEM LATERAL------->
+    </div> 
     <!---//CONTEUDO--->
-
 
     <script 
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" 
     integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" 
     crossorigin="anonymous"></script>
-
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/btt_topo.js"></script>
 
+    <div id="rodape">
+      @Todos os direitos reservados.
+    </div>
   </body>
 </html>
